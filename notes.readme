@@ -1,0 +1,6 @@
+git tag -a "version name" -m "message" //this will put a tag on the latest commit 
+git tag -a "version name" <commit-hash> -m "message" // this will put a tag on the specific commit
+git log //shows the detail commits
+git log --onelime // this will show only the hashs and commit messages in one line
+git tag -d <tag name> // this will delete the tag specified in the tag name you can delete multiple tag after appending them at the end
+git push --delete <tag name> this will delete the tag from the repo after deleting it locally
