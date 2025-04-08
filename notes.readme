@@ -9,3 +9,5 @@ git stash save "message" this will stash the changes for later use
 git stash apply //this will apply the stash changes again
 git stash clear //this will clear all the stashes from the list
 gt stash list //this will show all the stashes
+
+git rebase master //added the changes/commits of master branch in the features branch
