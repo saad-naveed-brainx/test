@@ -4,3 +4,8 @@ git log //shows the detail commits
 git log --onelime // this will show only the hashs and commit messages in one line
 git tag -d <tag name> // this will delete the tag specified in the tag name you can delete multiple tag after appending them at the end
 git push --delete <tag name> this will delete the tag from the repo after deleting it locally
+git cherry-pick <commit-hash> this will coopy the changes on only that commit
+git stash save "message" this will stash the changes for later use 
+git stash apply //this will apply the stash changes again
+git stash clear //this will clear all the stashes from the list
+gt stash list //this will show all the stashes
